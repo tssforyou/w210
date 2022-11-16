@@ -3,16 +3,16 @@ Lupatiy
 # Program make a simple calculator
 
 # This function adds two numbers
-def add(x, y):
+def addition(x, y):
     return x + y
 
 # This function subtracts two numbers
-def subtract(x, y):
+def subtract(y, x):
     return x - y
 
 # This function multiplies two numbers
-def multiply(x, y):
-    return x * y
+def multiply(x, x):
+    return x * x
 
 # This function divides two numbers
 def divide(x, y):
@@ -20,10 +20,10 @@ def divide(x, y):
 
 
 print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Diviation")
 
 while True:
     # take input from the user
